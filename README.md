@@ -1,3 +1,4 @@
+[![](https://images.microbadger.com/badges/image/friesischscott/gitlab-ci-matlab.svg)](https://hub.docker.com/r/friesischscott/gitlab-ci-matlab/)
 # gitlab-ci-matlab
 Container supporting a mounted in matlab for use in Gitlab CI
 
