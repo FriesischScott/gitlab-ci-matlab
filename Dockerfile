@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
-MAINTAINER Jasper Behrensdorf <jasper@oddrain.de>
+MAINTAINER Jasper Behrensdorf <behrensdorf@irz.uni-hannover.de>
 
 # Matlab dependencies
 RUN apt-get update && apt-get install -y \
