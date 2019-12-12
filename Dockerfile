@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 MAINTAINER Jasper Behrensdorf <behrensdorf@irz.uni-hannover.de>
 
@@ -6,7 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Matlab dependencies
 RUN apt-get update && apt-get install -y \
-    libpng12-dev libfreetype6-dev \
+    libpng-dev libfreetype6-dev \
     libblas-dev liblapack-dev gfortran build-essential xorg openjdk-8-jdk
 
 # Install curl and git (for uploading reports to codecov.io)
